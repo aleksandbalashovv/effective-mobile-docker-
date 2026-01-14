@@ -62,6 +62,7 @@ backend (port 8080, internal)
 
 ## Структура проекта
 
+```text
 .
 ├── backend
 │ ├── Dockerfile # фиксация среды backend
@@ -70,7 +71,7 @@ backend (port 8080, internal)
 │ └── nginx.conf # конфигурация reverse proxy
 ├── docker-compose.yml # описание системы и её границ
 └── README.md
-
+```
 
 ---
 
@@ -101,6 +102,7 @@ curl http://localhost`
 ```text
 Hello from Effective Mobile!
 ```
+
 
 
 
