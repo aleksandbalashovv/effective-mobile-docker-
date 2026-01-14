@@ -43,18 +43,6 @@ backend (port 8080, internal)
 
 ---
 
-## Схема взаимодействия
-
-Client
-|
-v
-nginx (port 80) ← boundary
-|
-v
-backend (port 8080, internal)
-
----
-
 ## Границы системы
 
 ### Сетевая граница
@@ -113,6 +101,7 @@ curl http://localhost`
 ```text
 Hello from Effective Mobile!
 ```
+
 
 
 
