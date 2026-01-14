@@ -29,10 +29,10 @@
 
 Client
 |
-
+v
 nginx (port 80) ← boundary
 |
-
+v
 backend (port 8080, internal)
 
 ---
@@ -91,6 +91,7 @@ docker compose up --build -d
 ## Проверка 
 curl http://localhost
 Результат: Hello from Effective Mobile!
+
 
 
 
