@@ -1,4 +1,6 @@
-# Effective Mobile — Docker / Compose Test Task
+# Effective Mobile — Docker / Compose Test 
+Описание решения тестового задания: nginx reverse proxy + внутренний HTTP backend в docker-сети.
+
 
 ## Идея решения
 
@@ -91,6 +93,7 @@ docker compose up --build -d
 ## Проверка 
 curl http://localhost
 Результат: Hello from Effective Mobile!
+
 
 
 
