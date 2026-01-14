@@ -90,9 +90,15 @@ backend (port 8080, internal)
 ```bash
 docker compose up --build -d
 ```
-## Проверка 
-curl http://localhost
-Результат: Hello from Effective Mobile!
+---
+
+#### В итоге вывод 
+curl http://localhost`
+```text
+Hello from Effective Mobile!
+```
+
+
 
 
 
