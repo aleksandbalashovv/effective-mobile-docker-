@@ -38,7 +38,7 @@ Client
 nginx (port 80) 
   |
   v
-backend (port 8080, internal)
+backend (port 8080)
 ```
 
 ---
