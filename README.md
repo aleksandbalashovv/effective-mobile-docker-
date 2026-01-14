@@ -1,6 +1,8 @@
-# Effective Mobile — Docker / Compose Test 
+# Effective Mobile — Docker / Compose Test
+
 Описание решения тестового задания: nginx reverse proxy + внутренний HTTP backend в docker-сети.
 
+---
 
 ## Идея решения
 
@@ -24,6 +26,20 @@
 - backend **не публикует порт наружу**
 - взаимодействие сервисов происходит **внутри docker-сети**
 - система описана как состояние, а не как набор ручных команд
+
+---
+
+## Схема взаимодействия
+
+```text
+Client
+  |
+  v
+nginx (port 80) 
+  |
+  v
+backend (port 8080, internal)
+```
 
 ---
 
@@ -97,6 +113,7 @@ curl http://localhost`
 ```text
 Hello from Effective Mobile!
 ```
+
 
 
 
